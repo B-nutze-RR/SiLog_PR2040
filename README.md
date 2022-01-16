@@ -1,4 +1,5 @@
 # SiLog
+-------------------
 Low latency vibrations logger using accelo-gyro MEMS, based on Arduino framework and designed for Maple Mini.</br>
 The project might be ported for Arduino Uno or similar, with some effort because of lack of certain hardware features of Uno (second Serial port, fewer interrupt channels, etc.).
 
@@ -7,3 +8,7 @@ The firmware itself is based on example project "LowLatencyLoggerMPU6050" for th
 To compile the project two more libraries are required:</br> 
     1. RTCLib from NeiroNx (<https://github.com/NeiroNx/RTCLib>)</br>
     2. MicroNMEA from stevemarple (<https://github.com/stevemarple/MicroNMEA>)
+
+
+ESP32 and RP2040 port 2022
+--------------------------
